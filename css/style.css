@@ -1,0 +1,28 @@
+h4.panel-title{
+    font-weight: bold;
+}
+/*id*/
+.breadcrumb{
+    padding: 0 10%;
+}
+#full-name{
+    font-weight: bold;
+    font-size: 19px;
+    color: #696763;
+
+}
+#full-description{
+    padding: 5% 5% 5% 0;
+    color: #696763;
+}
+
+/*test*/
+#grenn{
+    background-color: #002a80;
+}
+#blue{
+    background-color: #255625;
+}
+/*/test*/
+
+/*/id*/
