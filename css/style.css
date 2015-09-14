@@ -15,7 +15,12 @@ h4.panel-title{
     padding: 5% 5% 5% 0;
     color: #696763;
 }
-
+.sort-by{
+    padding: 0 4%;
+}
+#height-t{
+    height: 200px;
+}
 /*test*/
 #grenn{
     background-color: #002a80;
