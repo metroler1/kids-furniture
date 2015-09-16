@@ -1,9 +1,17 @@
 h4.panel-title{
     font-weight: bold;
 }
+.login111{
+    padding: 20% 20%;
+
+}
+.checkbox label{
+    font-weight: bold;
+}
 /*id*/
 .breadcrumb{
     padding: 0 10%;
+
 }
 #full-name{
     font-weight: bold;
@@ -29,5 +37,7 @@ h4.panel-title{
     background-color: #255625;
 }
 /*/test*/
-
+.nice{
+    background-color: #FE980F;
+}
 /*/id*/

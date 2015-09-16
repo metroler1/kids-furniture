@@ -17,10 +17,10 @@
     <link href="css/style.css" rel="stylesheet">
 
     <script src="js/bootstrap.js"  type="text/javascript"></script>
-    <!--[if lt IE 9]>
+    <!-- [if lt IE 9] -->
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
-    <![endif]-->
+    <!-- [endif] -->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
@@ -40,7 +40,17 @@
 <div id="modal" class="modal fade">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2>Войти с помощью</h2>
+        <h2 style="text-align: center;">Войти с помощью</h2>
+            <div class="login111">
+        <img src="./images/home/vk-big.png" width='100px' class="img-rounded">
+        <img src="./images/home/facebook-big.png" width='100px' class="img-rounded" style="margin-left:1%;margin-right:1%;">
+        <img src="./images/home/gmail.png" width='100px' class="img-rounded">
+            </div>        
+            <!-- <div class="row">
+                <div class="col-sm-4"><img src="./images/home/vk-big.png" width='100px' class="img-rounded"></div>
+                <div class="col-sm-4"><img src="./images/home/gmail.png" width='100px' class="img-rounded"></div>
+                <div class="col-sm-4"><img src="./images/home/facebook-big.png" width='100px' class="img-rounded"></div>
+            </div> -->
     </div>
     <!--popup для входа, здесь будут иконки соц сетей -->
     <div class="modal-body">
@@ -66,7 +76,7 @@
                         <ul class="nav navbar-nav">
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-vk"></i></a></li>
                             <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
@@ -85,33 +95,10 @@
                         <a href="index.html"><img src="images/home/logo.png" alt=""/></a>
                     </div>
 
-                    <!--<div class="btn-group pull-right">-->
-                    <!--<div class="btn-group">-->
-                    <!--<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">-->
-                    <!--USA-->
-                    <!--<span class="caret"></span>-->
-                    <!--</button>-->
-                    <!--<ul class="dropdown-menu">-->
-                    <!--<li><a href="#">Canada</a></li>-->
-                    <!--<li><a href="#">UK</a></li>-->
-                    <!--</ul>-->
-                    <!--</div>-->
-
-                    <!--<div class="btn-group">-->
-                    <!--<button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">-->
-                    <!--DOLLAR-->
-                    <!--<span class="caret"></span>-->
-                    <!--</button>-->
-                    <!--<ul class="dropdown-menu">-->
-                    <!--<li><a href="#">Canadian Dollar</a></li>-->
-                    <!--<li><a href="#">Pound</a></li>-->
-                    <!--</ul>-->
-                    <!--</div>-->
+                   
                 </div>
                 <div class="col-sm-4">
-                    <!--<div class="search_box pull-right">-->
-                        <!--<input type="text" placeholder="Search"/>-->
-                    <!--</div>-->
+                    
                     <form action="#" class="searchform">
                         <input type="text" placeholder="Поиск"/>
                         <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i>
@@ -125,9 +112,7 @@
                         <li><a href=""><i class="fa fa-star"></i>Избранное</a></li>
                         <li><a href="cart.html"><i class="fa fa-shopping-cart"></i>Корзина</a></li>
                         <li><a href="#modal" role="button" class="btn" data-toggle="modal"><i class="fa fa-lock"></i>Войти</a></li>
-                        <!--<li><a href="#myModal" data-toggle="modal" data-target="#myModal"><i class="fa fa-lock"></i>Войти</a></li>-->
-                        <!--<button id="button1">Открыть модальное fокно</button>-->
-                        <!--<a href="#modal" role="button" class="btn" data-toggle="modal">Кликаем</a>-->
+                        
 
                     </ul>
                 </div>
@@ -136,20 +121,7 @@
     </div>
     </div>
 
-    <!--/header-middle-->
-    <!--<div class="modal" id="myModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
-        <!--<div class="modal-header">-->
-            <!--<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>-->
-            <!--<h3 id="myModalLabel">Modal header</h3>-->
-        <!--</div>-->
-        <!--<div class="modal-body">-->
-            <!--<p>One fine body…</p>-->
-        <!--</div>-->
-        <!--<div class="modal-footer">-->
-            <!--<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>-->
-            <!--<button class="btn btn-primary">Save changes</button>-->
-        <!--</div>-->
-    <!--</div>-->
+    
 
     <div class="header-bottom"><!--header-bottom-->
         <div class="container">
@@ -218,7 +190,7 @@
                                         <label for="exampleInputEmail2">Email</label>
                                         <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
                                     </div>
-                                    <button type="button" class="btn btn-default get">Get it now</button>
+                                    <button type="button" class="btn btn-default get">Получать новости</button>
                                 </form>
 
                             </div>
@@ -361,19 +333,46 @@
                     </div>
                     <!--/price-range-->
 
-                    <!****************--filters*******************-->
-                    <div class="type-furniture">
+                    <!--****************filters*******************-->
+                   
                         <h2>Вид мебели</h2>
 
-                        <label class="checkbox"><input type="checkbox">Готовая</label><br/>
-                        <label class="checkbox"><input type="checkbox">Под заказ</label><br/>
-                    </div>
+                        
+                        <div class="checkbox filter">
+                            <label>
+                                <input type="checkbox" value="">
+                                Готовая
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="">
+                                Под заказ
+                            </label>
+                        </div>
+
+                    
 
                     <div class="by-sex">
                         <h2>По полу</h2>
-                        <label><input type="checkbox">для девочек</label><br/>
-                        <label><input type="checkbox">для мальчиков</label><br/>
-                        <label><input type="checkbox">универсальная</label>
+                       <div class="checkbox filter">
+                            <label>
+                                <input type="checkbox" value="">
+                                для девочек
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="">
+                                для мальчиков
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="">
+                                универсальная
+                            </label>
+                        </div>
 
                     </div>
                     <!--**************/filters*************************-->
@@ -391,19 +390,18 @@
                                 <div class="productinfo text-center">
                                     <img src="images/home/product1.jpg" alt=""/>
 
-                                    <h2>$56</h2>
+                                    <h2>$100</h2>
 
-                                    <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add
-                                        to cart</a>
+                                    <p>Мебель высокого качества</p>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
                                 </div>
                                 <div class="product-overlay">
                                     <div class="overlay-content">
-                                        <h2>$56</h2>
+                                        <h2>$120</h2>
 
-                                        <p>Easy Polo Black Edition</p>
+                                        <p>Мебель высокого качества</p>
                                         <a href="#" class="btn btn-default add-to-cart"><i
-                                                class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                class="fa fa-shopping-cart"></i>В корзину</a>
                                     </div>
                                 </div>
                             </div>
@@ -416,19 +414,18 @@
                                 <div class="productinfo text-center">
                                     <img src="images/home/product2.jpg" alt=""/>
 
-                                    <h2>$56</h2>
+                                    <h2>$100</h2>
 
-                                    <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add
-                                        to cart</a>
+                                    <p>Мебель высокого качества</p>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
                                 </div>
                                 <div class="product-overlay">
                                     <div class="overlay-content">
-                                        <h2>$56</h2>
+                                        <h2>$100</h2>
 
-                                        <p>Easy Polo Black Edition</p>
+                                        <p>Мебель высокого качества</p>
                                         <a href="#" class="btn btn-default add-to-cart"><i
-                                                class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                class="fa fa-shopping-cart"></i>В корзину</a>
                                     </div>
                                 </div>
                             </div>
@@ -441,19 +438,18 @@
                                 <div class="productinfo text-center">
                                     <img src="images/home/product3.jpg" alt=""/>
 
-                                    <h2>$56</h2>
+                                    <h2>$100</h2>
 
-                                    <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add
-                                        to cart</a>
+                                    <p>Мебель высокого качества</p>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
                                 </div>
                                 <div class="product-overlay">
                                     <div class="overlay-content">
-                                        <h2>$56</h2>
+                                        <h2>$100</h2>
 
-                                        <p>Easy Polo Black Edition</p>
+                                        <p>Мебель высокого качества</p>
                                         <a href="#" class="btn btn-default add-to-cart"><i
-                                                class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                class="fa fa-shopping-cart"></i>В корзину</a>
                                     </div>
                                 </div>
                             </div>
@@ -466,19 +462,18 @@
                                 <div class="productinfo text-center">
                                     <img src="images/home/product4.jpg" alt=""/>
 
-                                    <h2>$56</h2>
+                                    <h2>$100</h2>
 
-                                    <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add
-                                        to cart</a>
+                                    <p>Мебель высокого качества</p>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
                                 </div>
                                 <div class="product-overlay">
                                     <div class="overlay-content">
-                                        <h2>$56</h2>
+                                        <h2>$100</h2>
 
-                                        <p>Easy Polo Black Edition</p>
+                                        <p>Мебель высокого качества</p>
                                         <a href="#" class="btn btn-default add-to-cart"><i
-                                                class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                class="fa fa-shopping-cart"></i>В корзину</a>
                                     </div>
                                 </div>
 
@@ -492,19 +487,18 @@
                                 <div class="productinfo text-center">
                                     <img src="images/home/product5.jpg" alt=""/>
 
-                                    <h2>$56</h2>
+                                    <h2>$100</h2>
 
-                                    <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add
-                                        to cart</a>
+                                    <p>Мебель высокого качества</p>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
                                 </div>
                                 <div class="product-overlay">
                                     <div class="overlay-content">
-                                        <h2>$56</h2>
+                                        <h2>$100</h2>
 
-                                        <p>Easy Polo Black Edition</p>
+                                        <p>Мебель высокого качества</p>
                                         <a href="#" class="btn btn-default add-to-cart"><i
-                                                class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                class="fa fa-shopping-cart"></i>В корзину</a>
                                     </div>
                                 </div>
 
@@ -518,19 +512,18 @@
                                 <div class="productinfo text-center">
                                     <img src="images/home/product6.jpg" alt=""/>
 
-                                    <h2>$56</h2>
+                                    <h2>$100</h2>
 
-                                    <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add
-                                        to cart</a>
+                                    <p>Мебель высокого качества</p>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>В корзину</a>
                                 </div>
                                 <div class="product-overlay">
                                     <div class="overlay-content">
-                                        <h2>$56</h2>
+                                        <h2>$100</h2>
 
-                                        <p>Easy Polo Black Edition</p>
+                                        <p>Мебель высокого качества</p>
                                         <a href="#" class="btn btn-default add-to-cart"><i
-                                                class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                class="fa fa-shopping-cart"></i>В корзину</a>
                                     </div>
                                 </div>
                             </div>
@@ -548,7 +541,6 @@
                             <li class="sort-by"><a href="#blazers" data-toggle="tab">по популярности</a></li>
                             <li class="sort-by"><a href="#sunglass" data-toggle="tab">по обновлению</a></li>
                             <li class="sort-by"><a href="#kids" data-toggle="tab">50 товаров</a></li>
-                            <!--<li class="sort-by"><a href="#poloshirt" data-toggle="tab">100 товаров</a></li>-->
                         </ul>
                     </div>
                     <div class="tab-content">
@@ -559,11 +551,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery1.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -575,11 +567,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery2.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -591,11 +583,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery3.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -607,11 +599,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery4.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -626,11 +618,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery4.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -642,11 +634,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery3.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -658,11 +650,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery2.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -674,11 +666,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery1.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -693,11 +685,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery3.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -709,11 +701,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery4.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -725,11 +717,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery1.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -741,11 +733,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery2.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -760,11 +752,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery1.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -776,11 +768,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery2.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -792,11 +784,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery3.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -808,11 +800,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery4.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -827,11 +819,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery2.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Easy Polo Black E</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -843,11 +835,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery4.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -859,11 +851,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery3.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -875,11 +867,11 @@
                                         <div class="productinfo text-center">
                                             <img src="images/home/gallery1.jpg" alt=""/>
 
-                                            <h2>$56</h2>
+                                            <h2>$100</h2>
 
-                                            <p>Easy Polo Black Edition</p>
+                                            <p>Мебель высокого качества</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i
-                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                    class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
 
                                     </div>
@@ -902,11 +894,11 @@
                                             <div class="productinfo text-center">
                                                 <img src="images/home/recommend1.jpg" alt=""/>
 
-                                                <h2>$56</h2>
+                                                <h2>$100</h2>
 
-                                                <p>Easy Polo Black Edition</p>
+                                                <p>Мебель высокого качества</p>
                                                 <a href="#" class="btn btn-default add-to-cart"><i
-                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                        class="fa fa-shopping-cart"></i>В корзину</a>
                                             </div>
 
                                         </div>
@@ -918,11 +910,11 @@
                                             <div class="productinfo text-center">
                                                 <img src="images/home/recommend2.jpg" alt=""/>
 
-                                                <h2>$56</h2>
+                                                <h2>$100</h2>
 
-                                                <p>Easy Polo Black Edition</p>
+                                                <p>Мебель высокого качества</p>
                                                 <a href="#" class="btn btn-default add-to-cart"><i
-                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                        class="fa fa-shopping-cart"></i>В корзину</a>
                                             </div>
 
                                         </div>
@@ -934,11 +926,11 @@
                                             <div class="productinfo text-center">
                                                 <img src="images/home/recommend3.jpg" alt=""/>
 
-                                                <h2>$56</h2>
+                                                <h2>$100</h2>
 
-                                                <p>Easy Polo Black Edition</p>
+                                                <p>Мебель высокого качества</p>
                                                 <a href="#" class="btn btn-default add-to-cart"><i
-                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                        class="fa fa-shopping-cart"></i>В корзину</a>
                                             </div>
 
                                         </div>
@@ -952,11 +944,11 @@
                                             <div class="productinfo text-center">
                                                 <img src="images/home/recommend1.jpg" alt=""/>
 
-                                                <h2>$56</h2>
+                                                <h2>$100</h2>
 
-                                                <p>Easy Polo Black Edition</p>
+                                                <p>Мебель высокого качества</p>
                                                 <a href="#" class="btn btn-default add-to-cart"><i
-                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                        class="fa fa-shopping-cart"></i>В корзину</a>
                                             </div>
 
                                         </div>
@@ -968,11 +960,11 @@
                                             <div class="productinfo text-center">
                                                 <img src="images/home/recommend2.jpg" alt=""/>
 
-                                                <h2>$56</h2>
+                                                <h2>$100</h2>
 
-                                                <p>Easy Polo Black Edition</p>
+                                                <p>Мебель высокого качества</p>
                                                 <a href="#" class="btn btn-default add-to-cart"><i
-                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                        class="fa fa-shopping-cart"></i>В корзину</a>
                                             </div>
 
                                         </div>
@@ -984,11 +976,11 @@
                                             <div class="productinfo text-center">
                                                 <img src="images/home/recommend3.jpg" alt=""/>
 
-                                                <h2>$56</h2>
+                                                <h2>$100</h2>
 
-                                                <p>Easy Polo Black Edition</p>
+                                                <p>Мебель высокого качества</p>
                                                 <a href="#" class="btn btn-default add-to-cart"><i
-                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                        class="fa fa-shopping-cart"></i>В корзину</a>
                                             </div>
 
                                         </div>
@@ -1033,7 +1025,7 @@
                             <input type="text" placeholder="Your email address"/>
                             <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i>
                             </button>
-                            <p>Get the most recent updates from <br/>our site and be updated your self...</p>
+                            <p>Далеко-далеко за словесными горами в стране гласных и согласных..</p>
                         </form>
                     </div>
                 </div>
